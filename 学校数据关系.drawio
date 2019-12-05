@@ -1,9 +1,137 @@
-<mxfile host="www.draw.io" modified="2019-12-05T06:42:50.489Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36" etag="AaFmWG5c5VZYwxkslqJ5" version="12.3.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-05T07:57:39.877Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36" etag="hcKyYIZXLeeehgrDCsBm" version="12.3.6" type="github" pages="1">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1310" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
+        <object label="学校" placeholders="1" id="DCEjESgWWxDY3fDXi7-q-1">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+            <mxGeometry x="30" y="20" width="140" height="78" as="geometry"/>
+          </mxCell>
+        </object>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-2" value="id&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-1">
+          <mxGeometry y="26" width="140" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-3" value="name 名字" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-1">
+          <mxGeometry y="52" width="140" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-9" value="老师" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="140" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-10" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-9">
+          <mxGeometry y="26" width="140" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-11" value="name 名字" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-9">
+          <mxGeometry y="52" width="140" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-12" value="personcard 身份证" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-9">
+          <mxGeometry y="80" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-15" value="phone 手机" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-9">
+          <mxGeometry y="110" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-17" value="zhengshu 证书" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-9">
+          <mxGeometry y="140" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-16" value="zizhi 资质" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-9">
+          <mxGeometry y="170" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-18" value="教务" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="130" width="140" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-19" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-18">
+          <mxGeometry y="26" width="140" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-20" value="name 名字" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-18">
+          <mxGeometry y="52" width="140" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-21" value="personcard 身份证" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-18">
+          <mxGeometry y="80" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-22" value="phone 手机" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-18">
+          <mxGeometry y="110" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-23" value="zhengshu 证书" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-18">
+          <mxGeometry y="140" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-24" value="zizhi 资质" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-18">
+          <mxGeometry y="170" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-25" value="学员" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="350" width="140" height="516" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-26" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="26" width="140" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-38" value="name 名字" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="52" width="140" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-40" value="personcard 身份证" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="80" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-35" value="phone 手机" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="110" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-41" value="sex 性别" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="140" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-39" value="minzu 名族" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="170" width="140" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-37" value="文化程度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="196" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-36" value="培训对象" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="226" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-34" value="签发机关" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="256" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-33" value="身份证有效期限" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="286" width="140" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-32" value="年龄" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="314" width="140" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-27" value="婚姻状况" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="340" width="140" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-28" value="出生日期" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="368" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-44" value="失业 证号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="398" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-43" value="就业情况" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="428" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-42" value="家庭住址" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="458" width="140" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-29" value="失业 证状态&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-25">
+          <mxGeometry y="486" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-45" value="合格（资格）证书编号" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="350" width="140" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-46" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-45">
+          <mxGeometry y="26" width="140" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-47" value="name 名字" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-45">
+          <mxGeometry y="52" width="140" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-49" value="鉴定时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-45">
+          <mxGeometry y="80" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-50" value="鉴定机构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-45">
+          <mxGeometry y="110" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-53" value="所属学员" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-45">
+          <mxGeometry y="140" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DCEjESgWWxDY3fDXi7-q-52" value="所属班级" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-45">
+          <mxGeometry y="170" width="140" height="30" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
