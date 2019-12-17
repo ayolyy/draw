@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-06T00:50:40.819Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36" etag="Oaqti4xDm9I663_SLudN" version="12.3.7" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-17T07:10:02.413Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36" etag="_joc9ZhbTK1XE1gcRFlK" version="12.4.2" type="github" pages="1">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="2232" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2226" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -15,7 +15,7 @@
         <mxCell id="DCEjESgWWxDY3fDXi7-q-3" value="name 名字" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DCEjESgWWxDY3fDXi7-q-1" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="uV5zr2iEdNJAFsknJArN-1" value="校长" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCEjESgWWxDY3fDXi7-q-1">
+        <mxCell id="uV5zr2iEdNJAFsknJArN-1" value="校长" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DCEjESgWWxDY3fDXi7-q-1" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="DCEjESgWWxDY3fDXi7-q-9" value="老师" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
@@ -49,7 +49,7 @@
           <mxGeometry y="110" width="140" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="DCEjESgWWxDY3fDXi7-q-25" value="学员" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="700" y="20" width="140" height="516" as="geometry"/>
+          <mxGeometry x="520" y="20" width="140" height="516" as="geometry"/>
         </mxCell>
         <mxCell id="DCEjESgWWxDY3fDXi7-q-26" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DCEjESgWWxDY3fDXi7-q-25" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry"/>
@@ -103,7 +103,7 @@
           <mxGeometry y="486" width="140" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="DCEjESgWWxDY3fDXi7-q-45" value="合格（资格）证书编号" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="530" y="130" width="140" height="200" as="geometry"/>
+          <mxGeometry x="-140" y="353" width="140" height="200" as="geometry"/>
         </mxCell>
         <mxCell id="DCEjESgWWxDY3fDXi7-q-46" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DCEjESgWWxDY3fDXi7-q-45" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry"/>
@@ -273,19 +273,19 @@
         <mxCell id="DCEjESgWWxDY3fDXi7-q-121" value="是否通过" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DCEjESgWWxDY3fDXi7-q-113" vertex="1">
           <mxGeometry y="202" width="140" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="uV5zr2iEdNJAFsknJArN-2" value="证书" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="uV5zr2iEdNJAFsknJArN-2" value="证书" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-120" y="130" width="140" height="140" as="geometry"/>
         </mxCell>
-        <mxCell id="uV5zr2iEdNJAFsknJArN-3" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uV5zr2iEdNJAFsknJArN-2">
+        <mxCell id="uV5zr2iEdNJAFsknJArN-3" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uV5zr2iEdNJAFsknJArN-2" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="uV5zr2iEdNJAFsknJArN-4" value="name 名字" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uV5zr2iEdNJAFsknJArN-2">
+        <mxCell id="uV5zr2iEdNJAFsknJArN-4" value="name 名字" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uV5zr2iEdNJAFsknJArN-2" vertex="1">
           <mxGeometry y="52" width="140" height="28" as="geometry"/>
         </mxCell>
-        <mxCell id="uV5zr2iEdNJAFsknJArN-5" value="资质" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uV5zr2iEdNJAFsknJArN-2">
+        <mxCell id="uV5zr2iEdNJAFsknJArN-5" value="资质" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uV5zr2iEdNJAFsknJArN-2" vertex="1">
           <mxGeometry y="80" width="140" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="uV5zr2iEdNJAFsknJArN-6" value="所属老师" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uV5zr2iEdNJAFsknJArN-2">
+        <mxCell id="uV5zr2iEdNJAFsknJArN-6" value="所属老师" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uV5zr2iEdNJAFsknJArN-2" vertex="1">
           <mxGeometry y="110" width="140" height="30" as="geometry"/>
         </mxCell>
       </root>
