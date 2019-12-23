@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-23T00:38:43.441Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36" etag="V4qgVRhdxcKJmE_yGyss" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-23T00:51:11.656Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36" etag="b0ck3_mplF8fE1_FLwoT" version="12.4.3" type="github" pages="1">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="2103" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -340,7 +340,7 @@
           <mxGeometry y="80" width="140" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="gZJUnQRo_4Y87xi2DkOT-9" value="菜单" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="1000" width="140" height="226" as="geometry"/>
+          <mxGeometry x="330" y="1000" width="140" height="256" as="geometry"/>
         </mxCell>
         <mxCell id="gZJUnQRo_4Y87xi2DkOT-10" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gZJUnQRo_4Y87xi2DkOT-9">
           <mxGeometry y="26" width="140" height="26" as="geometry"/>
@@ -362,6 +362,51 @@
         </mxCell>
         <mxCell id="gZJUnQRo_4Y87xi2DkOT-14" value="图标" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gZJUnQRo_4Y87xi2DkOT-9">
           <mxGeometry y="196" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="gZJUnQRo_4Y87xi2DkOT-17" value="组件类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gZJUnQRo_4Y87xi2DkOT-9">
+          <mxGeometry y="226" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="gZJUnQRo_4Y87xi2DkOT-18" value="登陆(保存sesion)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="473" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="gZJUnQRo_4Y87xi2DkOT-22" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-430.5" y="553" as="sourcePoint"/>
+            <mxPoint x="-430.5" y="613" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZJUnQRo_4Y87xi2DkOT-23" value="每个页面需要一个全局配置，打开视图时候查询" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-502.5" y="618" width="145" height="145" as="geometry"/>
+        </mxCell>
+        <mxCell id="gZJUnQRo_4Y87xi2DkOT-24" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1" target="gZJUnQRo_4Y87xi2DkOT-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-426" y="763" as="sourcePoint"/>
+            <mxPoint x="-426" y="830" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="-426" y="780"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZJUnQRo_4Y87xi2DkOT-25" value="调用api,需要通过权限框架，获取是否有相关权限." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="800" width="270" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="gZJUnQRo_4Y87xi2DkOT-26" value="定义返回json数据表" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="800" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="gZJUnQRo_4Y87xi2DkOT-27" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-280" y="840" as="sourcePoint"/>
+            <mxPoint x="-220" y="840" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZJUnQRo_4Y87xi2DkOT-28" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-170" y="870" as="sourcePoint"/>
+            <mxPoint x="-280" y="910" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZJUnQRo_4Y87xi2DkOT-29" value="显示功能或者提示权限不足" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="890" width="260" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
