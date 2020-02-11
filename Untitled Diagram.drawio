@@ -1,1 +1,46 @@
-<mxfile host="www.draw.io" modified="2020-02-11T15:52:48.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" version="12.6.7" etag="kqyFRJbklAQ4XjljL3O5" type="github"><diagram id="EiQG29zKK1BTSKLR9HDK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-02-11T16:03:12.489Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="SevQ8-TtNP0qCwpDryTN" version="12.6.7" type="github">
+  <diagram id="EiQG29zKK1BTSKLR9HDK" name="第 1 页">
+    <mxGraphModel dx="1927" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="gIgA5abdhSprj51FqP8o-1" value="t_account 账号" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="40" width="370" height="350" as="geometry"/>
+        </mxCell>
+        <mxCell id="gIgA5abdhSprj51FqP8o-2" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIgA5abdhSprj51FqP8o-1">
+          <mxGeometry y="26" width="370" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="gIgA5abdhSprj51FqP8o-3" value="username 账号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIgA5abdhSprj51FqP8o-1">
+          <mxGeometry y="52" width="370" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="gIgA5abdhSprj51FqP8o-4" value="userpassword 密码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIgA5abdhSprj51FqP8o-1">
+          <mxGeometry y="80" width="370" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="gIgA5abdhSprj51FqP8o-5" value="createtime 创办时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIgA5abdhSprj51FqP8o-1">
+          <mxGeometry y="110" width="370" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="gIgA5abdhSprj51FqP8o-6" value="state 状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIgA5abdhSprj51FqP8o-1">
+          <mxGeometry y="140" width="370" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="gIgA5abdhSprj51FqP8o-7" value="level 级别" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIgA5abdhSprj51FqP8o-1">
+          <mxGeometry y="170" width="370" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="gIgA5abdhSprj51FqP8o-8" value="token API调用口令(无使用占位)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIgA5abdhSprj51FqP8o-1">
+          <mxGeometry y="200" width="370" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="gIgA5abdhSprj51FqP8o-9" value="accountroleid 账号的角色关联 t_account_role" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIgA5abdhSprj51FqP8o-1">
+          <mxGeometry y="230" width="370" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="gIgA5abdhSprj51FqP8o-10" value="accountType 账号的角色类型可以关联到老师，财务，项目经理等表" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIgA5abdhSprj51FqP8o-1">
+          <mxGeometry y="260" width="370" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="gIgA5abdhSprj51FqP8o-11" value="typeId 关联表角色ID，由类型accountType决定" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIgA5abdhSprj51FqP8o-1">
+          <mxGeometry y="290" width="370" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="gIgA5abdhSprj51FqP8o-12" value="accountLogo(非本人添加)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIgA5abdhSprj51FqP8o-1">
+          <mxGeometry y="320" width="370" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
